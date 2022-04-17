@@ -29,7 +29,8 @@ const Modal: React.FC<ModalProps> = ({ handleClose, text }) => {
         initial="hidden"
         animate="visible"
         exit="exit"
-      >
+        drag
+      > 
         {text}  
       </motion.div>
     </Backdrop>
